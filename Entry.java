@@ -1,7 +1,5 @@
 package com.example.splitbilly;
 
-import static com.example.splitbilly.Tax.applyTax;
-
 public class Entry {
 
     private String name;
@@ -13,6 +11,7 @@ public class Entry {
         this("default", 0, 0, 0);
     }
 
+    // Entry Constructor - taxType is an int: 0 = None, 1 = GST, 2 = HST
     public Entry(String name, double quantity, double price, int taxType){
         this.name = name;
         this.quantity = quantity;
@@ -65,7 +64,7 @@ public class Entry {
 
     // returns corresponding taxtype in database
     // 0 for non, 1 for GST, 2 for HST, -1 if not found
-    public int retrieveTax(Entry[] database, Entry entry) {
+    public int retrieveTax(Entry[] database) {
 
         Boolean flag = false;
         int result = -1;
@@ -73,7 +72,7 @@ public class Entry {
 
         while (flag == false && index < database.length){
 
-            if (database[index].name.contains(entry.name)){
+            if (database[index].name.contains(this.name)){
                 result = database[index].getTaxType();
                 flag = true;
             }
@@ -83,6 +82,5 @@ public class Entry {
 
         return result;
     }
-
 }
 
