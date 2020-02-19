@@ -60,7 +60,7 @@
                     android:text="@string/sDefPrice" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/entry1Check"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent" />
 
@@ -89,7 +89,8 @@
                     android:layout_width="0dp"
                     android:layout_span="6"
                     android:text="@string/sAddRow"
-                    android:textSize="18sp">
+                    android:textSize="18sp"
+                    android:onClick="createTableRow">
 
                 </Button>
             </TableRow>
