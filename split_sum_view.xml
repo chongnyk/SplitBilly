@@ -31,12 +31,12 @@
             android:layout_height="match_parent">
 
             <TableRow
-                android:id="@+id/entry1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:id="@+id/1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/entry1Name"
+                    android:id="@+id/2"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -44,7 +44,7 @@
                     android:text="@string/sDefName" />
 
                 <EditText
-                    android:id="@+id/entry1Quantity"
+                    android:id="@+id/3"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -52,7 +52,7 @@
                     android:text="@string/sDefQuant" />
 
                 <EditText
-                    android:id="@+id/entry1Price"
+                    android:id="@+id/4"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -60,18 +60,18 @@
                     android:text="@string/sDefPrice" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/5"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent" />
 
                 <TextView
-                    android:id="@+id/entry1Tax"
+                    android:id="@+id/6"
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:text="@string/sDefTax" />
 
                 <TextView
-                    android:id="@+id/entry1PriceWTax"
+                    android:id="@+id/7"
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:text="@string/sDefPriceWTax" />
@@ -80,18 +80,199 @@
             </TableRow>
 
             <TableRow
-                android:id="@+id/entry2"
+                android:id="@+id/8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
-                    android:id="@+id/rowAdder"
-                    android:layout_width="0dp"
-                    android:layout_span="6"
-                    android:text="@string/sAddRow"
-                    android:textSize="18sp">
+                <EditText
+                    android:id="@+id/9"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefName" />
 
-                </Button>
+                <EditText
+                    android:id="@+id/10"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
+
+                <EditText
+                    android:id="@+id/11"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefPrice" />
+
+                <CheckBox
+                    android:id="@+id/12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/13"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefTax" />
+
+                <TextView
+                    android:id="@+id/14"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefPriceWTax" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/16"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefName" />
+
+                <EditText
+                    android:id="@+id/17"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
+
+                <EditText
+                    android:id="@+id/18"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefPrice" />
+
+                <CheckBox
+                    android:id="@+id/19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/20"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefTax" />
+
+                <TextView
+                    android:id="@+id/21"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefPriceWTax" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/23"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefName" />
+
+                <EditText
+                    android:id="@+id/24"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
+
+                <EditText
+                    android:id="@+id/25"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefPrice" />
+
+                <CheckBox
+                    android:id="@+id/26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/27"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefTax" />
+
+                <TextView
+                    android:id="@+id/28"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefPriceWTax" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/30"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefName" />
+
+                <EditText
+                    android:id="@+id/31"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
+
+                <EditText
+                    android:id="@+id/32"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefPrice" />
+
+                <CheckBox
+                    android:id="@+id/33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/34"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefTax" />
+
+                <TextView
+                    android:id="@+id/35"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefPriceWTax" />
+
+
             </TableRow>
 
         </TableLayout>
