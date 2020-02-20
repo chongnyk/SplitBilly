@@ -20,7 +20,7 @@
         android:id="@+id/scroll"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/totalCalcer"
+        app:layout_constraintBottom_toTopOf="@+id/taxCalc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user">
@@ -40,24 +40,24 @@
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
+                    android:hint="@string/sDefName"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input2"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
+                    android:hint="@string/sDefQuant"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input3"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefPrice" />
+                    android:hint="@string/sDefPrice"
+                    android:inputType="textPersonName" />
 
                 <TextView
                     android:id="@+id/output1"
@@ -82,26 +82,26 @@
                 <EditText
                     android:id="@+id/input4"
                     android:layout_width="80dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
+                    android:hint="@string/sDefName"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input5"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
+                    android:hint="@string/sDefQuant"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input6"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefPrice" />
+                    android:hint="@string/sDefPrice"
+                    android:inputType="textPersonName" />
 
                 <TextView
                     android:id="@+id/output3"
@@ -128,24 +128,24 @@
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
+                    android:hint="@string/sDefName"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input8"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
+                    android:hint="@string/sDefQuant"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input9"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefPrice" />
+                    android:hint="@string/sDefPrice"
+                    android:inputType="textPersonName" />
 
                 <TextView
                     android:id="@+id/output5"
@@ -172,24 +172,24 @@
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
+                    android:hint="@string/sDefName"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input11"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
+                    android:hint="@string/sDefQuant"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input12"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefPrice" />
+                    android:hint="@string/sDefPrice"
+                    android:inputType="textPersonName" />
 
                 <TextView
                     android:id="@+id/output7"
@@ -216,33 +216,33 @@
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
+                    android:hint="@string/sDefName"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input14"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
+                    android:hint="@string/sDefQuant"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/input15"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefPrice" />
+                    android:hint="@string/sDefPrice"
+                    android:inputType="textPersonName" />
 
                 <TextView
-                    android:id="@+id/output11"
+                    android:id="@+id/output9"
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:text="@string/sDefTax" />
 
                 <TextView
-                    android:id="@+id/output12"
+                    android:id="@+id/output10"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/sDefPriceWTax" />
@@ -253,47 +253,51 @@
         </TableLayout>
     </ScrollView>
 
-    <Button
-        android:id="@+id/totalCalcer"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:onClick="calculatorClicked"
-        android:text="@string/sCalcButton"
-        app:layout_constraintBottom_toTopOf="@+id/staticTextToSplit"
-        app:layout_constraintEnd_toStartOf="@+id/totalTax"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/totalSum"
-        android:layout_width="70dp"
+        android:layout_width="0dp"
         android:layout_height="48dp"
         android:text="@string/sTotalPrice"
-        app:layout_constraintBottom_toTopOf="@+id/splitSum"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/splitSum"
+        app:layout_constraintStart_toEndOf="@+id/totalTax" />
 
     <TextView
         android:id="@+id/totalTax"
-        android:layout_width="70dp"
-        android:layout_height="48dp"
-        android:text="@string/sTotalTax"
-        app:layout_constraintBottom_toTopOf="@+id/staticTextToSplit"
-        app:layout_constraintEnd_toStartOf="@+id/totalSum" />
-
-    <TextView
-        android:id="@+id/staticTextToSplit"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:text="@string/sStaticTextSplitRow"
+        android:text="@string/sTotalTax"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/splitSum"
+        app:layout_constraintEnd_toStartOf="@+id/totalSum"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/splitSum"
-        android:layout_width="70dp"
+        android:layout_width="0dp"
         android:layout_height="48dp"
         android:text="@string/sSplitSum"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/totalSum" />
+
+    <Button
+        android:id="@+id/pwtCalc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="calculatePWT"
+        android:text="Calculate Full Prices"
+        app:layout_constraintBottom_toTopOf="@+id/totalSum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/taxCalc" />
+
+    <Button
+        android:id="@+id/taxCalc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="calculateTax"
+        android:text="Calculate Taxes"
+        app:layout_constraintBottom_toTopOf="@+id/totalSum"
+        app:layout_constraintEnd_toStartOf="@+id/pwtCalc"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

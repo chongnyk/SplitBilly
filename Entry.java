@@ -1,14 +1,21 @@
 package com.example.splitbilly;
 
+import android.util.Pair;
+
 public class Entry {
 
     private String name;
     private double quantity;
     private double price;
     private int taxType;
+    private double tax = 0;
 
     public Entry(){
         this("default", 0, 0, 0);
+    }
+
+    public Entry(String name, double quantity, double price){
+        this(name, quantity, price, -1);
     }
 
     // Entry Constructor - taxType is an int: 0 = None, 1 = GST, 2 = HST
@@ -36,6 +43,10 @@ public class Entry {
         return this.taxType;
     }
 
+    public double getTax(){
+        return this.tax;
+    }
+
     // setNames
     public void setName(String newName){
         this.name = newName;
@@ -51,6 +62,10 @@ public class Entry {
 
     public void setTaxType(int newTaxType) {
         this.taxType = newTaxType;
+    }
+
+    public void setTax(double newTax){
+        this.tax = newTax;
     }
 
     @Override
@@ -83,4 +98,3 @@ public class Entry {
         return result;
     }
 }
-
