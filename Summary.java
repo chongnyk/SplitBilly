@@ -31,7 +31,7 @@ private Button button;
 
     public void openEntry()
     {
-        Intent intent = new Intent(this, Entry.class);
+        Intent intent = new Intent(this, SplitSum.class);
         startActivity(intent);
     }
 
