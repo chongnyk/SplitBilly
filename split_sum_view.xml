@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/sUser"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,12 +36,20 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/input2"
+                    android:id="@+id/input1"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="@string/sDefName" />
+
+                <EditText
+                    android:id="@+id/input2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
 
                 <EditText
                     android:id="@+id/input3"
@@ -49,7 +57,27 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
+                    android:text="@string/sDefPrice" />
+
+                <TextView
+                    android:id="@+id/output1"
+                    android:layout_width="77dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefTax" />
+
+                <TextView
+                    android:id="@+id/output2"
+                    android:layout_width="94dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefPriceWTax" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/entry2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <EditText
                     android:id="@+id/input4"
@@ -57,22 +85,33 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
+                    android:text="@string/sDefName" />
+
+                <EditText
+                    android:id="@+id/input5"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
+
+                <EditText
+                    android:id="@+id/input6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
                     android:text="@string/sDefPrice" />
 
-                <CheckBox
-                    android:id="@+id/check5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent" />
-
                 <TextView
-                    android:id="@+id/output6"
+                    android:id="@+id/output3"
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:text="@string/sDefTax" />
 
                 <TextView
-                    android:id="@+id/output7"
-                    android:layout_width="70dp"
+                    android:id="@+id/output4"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/sDefPriceWTax" />
 
@@ -80,9 +119,25 @@
             </TableRow>
 
             <TableRow
-                android:id="@+id/entry8"
+                android:id="@+id/entry3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/input7"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefName" />
+
+                <EditText
+                    android:id="@+id/input8"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
 
                 <EditText
                     android:id="@+id/input9"
@@ -90,7 +145,27 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
+                    android:text="@string/sDefPrice" />
+
+                <TextView
+                    android:id="@+id/output5"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefTax" />
+
+                <TextView
+                    android:id="@+id/output6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/sDefPriceWTax" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/entry4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <EditText
                     android:id="@+id/input10"
@@ -98,7 +173,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
+                    android:text="@string/sDefName" />
 
                 <EditText
                     android:id="@+id/input11"
@@ -106,22 +181,25 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
+                    android:text="@string/sDefQuant" />
+
+                <EditText
+                    android:id="@+id/input12"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
                     android:text="@string/sDefPrice" />
 
-                <CheckBox
-                    android:id="@+id/check12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent" />
-
                 <TextView
-                    android:id="@+id/output13"
+                    android:id="@+id/output7"
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:text="@string/sDefTax" />
 
                 <TextView
-                    android:id="@+id/output14"
-                    android:layout_width="70dp"
+                    android:id="@+id/output8"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/sDefPriceWTax" />
 
@@ -129,12 +207,12 @@
             </TableRow>
 
             <TableRow
-                android:id="@+id/entry15"
+                android:id="@+id/entry5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/input16"
+                    android:id="@+id/input13"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -142,7 +220,7 @@
                     android:text="@string/sDefName" />
 
                 <EditText
-                    android:id="@+id/input17"
+                    android:id="@+id/input14"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -150,125 +228,22 @@
                     android:text="@string/sDefQuant" />
 
                 <EditText
-                    android:id="@+id/input18"
+                    android:id="@+id/input15"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="@string/sDefPrice" />
 
-                <CheckBox
-                    android:id="@+id/check19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent" />
-
                 <TextView
-                    android:id="@+id/output20"
+                    android:id="@+id/output11"
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:text="@string/sDefTax" />
 
                 <TextView
-                    android:id="@+id/output21"
-                    android:layout_width="70dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/sDefPriceWTax" />
-
-
-            </TableRow>
-
-            <TableRow
-                android:id="@+id/entry22"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <EditText
-                    android:id="@+id/input23"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
-
-                <EditText
-                    android:id="@+id/input24"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
-
-                <EditText
-                    android:id="@+id/input25"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefPrice" />
-
-                <CheckBox
-                    android:id="@+id/check26"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent" />
-
-                <TextView
-                    android:id="@+id/output27"
-                    android:layout_width="70dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/sDefTax" />
-
-                <TextView
-                    android:id="@+id/output28"
-                    android:layout_width="70dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/sDefPriceWTax" />
-
-
-            </TableRow>
-
-            <TableRow
-                android:id="@+id/entry29"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <EditText
-                    android:id="@+id/input30"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefName" />
-
-                <EditText
-                    android:id="@+id/input31"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefQuant" />
-
-                <EditText
-                    android:id="@+id/input32"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/sDefPrice" />
-
-                <CheckBox
-                    android:id="@+id/check33"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent" />
-
-                <TextView
-                    android:id="@+id/output34"
-                    android:layout_width="70dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/sDefTax" />
-
-                <TextView
-                    android:id="@+id/output35"
-                    android:layout_width="70dp"
+                    android:id="@+id/output12"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/sDefPriceWTax" />
 
