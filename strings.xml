@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SplitBilly</string>
+    <string name="sUser">User</string>
+    <string name="sPWT">priceWTax</string>
+    <string name="sTax">Tax</string>
+    <string name="sDefName">Name</string>
+    <string name="sDefQuant">Quantity</string>
+    <string name="sDefPrice">Price</string>
+    <string name="sDefTax">Tax</string>
+    <string name="sDefPriceWTax">PriceWTax</string>
+    <string name="sAddRow">+</string>
+    <string name="sCalcButton">Calculate Total</string>
+    <string name="sTotalTax">Total Tax</string>
+    <string name="sTotalPrice">Total Sum</string>
+    <string name="sSplitSum">Split Sum</string>
+    <string name="sStaticTextSplitRow">Amount owed by each user</string>
+</resources>
